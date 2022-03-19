@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if messages %}
+        {% for message in messages %}
+            <div>{{ message  }}</div>
+        {% endfor %}
+    {% endif %}
+    <div class="content">
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset>
+                <legend>Register</legend>
+                {{ form.as_p }} <!-- This is referencing the form context variable from users/views -->
+            </fieldset>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div>
+            <small>Already Have An Account? <a href="#">Sign In</a></small>
+        </div>
+    </div>
+</body>
+</html>
