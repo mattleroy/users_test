@@ -1,3 +1,4 @@
+{% load crispy_forms_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
             {% csrf_token %}
             <fieldset>
                 <legend>Register</legend>
-                {{ form.as_p }} <!-- This is referencing the form context variable from users/views -->
+                {{ form|crispy }} <!-- This is referencing the form context variable from users/views -->
             </fieldset>
             <div>
                 <button type="submit">Sign Up</button>
