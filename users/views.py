@@ -13,8 +13,8 @@ def register(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            messages.success(request, f'Account created for {username}!') # This is a flash message to indicate the account is created
-            return redirect('register')
+            messages.success(request, f'Account for {username} has been created! You can now log in.') # This is a flash message to indicate the account is created
+            return redirect('login')
     else:
         form = UserRegistrationForm()
     return render(request, 'users/register.html', {'form': form})   # Left is a variable, right is what is instanced on line 5
