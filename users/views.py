@@ -20,4 +20,4 @@ def register(request):
     return render(request, 'users/register.html', {'form': form})   # Left is a variable, right is what is instanced on line 5
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'users/index.html')

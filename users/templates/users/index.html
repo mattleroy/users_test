@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Front Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'users/index.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Navigation Bar</h1>
+        <div class="user-actions">
+            <strong><a href={% url "login" %}>Login</a></strong>
+            <strong><a href={% url "register" %}>Register</a></strong>
+        </div>
+    </div>
+</body>
+</html>
