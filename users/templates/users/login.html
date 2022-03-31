@@ -1,30 +1,29 @@
 {% load crispy_forms_tags %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'users/login.css' %}">
 </head>
 <body>
-{% if messages %}
-    {% for message in messages %}
-        <div>{{ message  }}</div>
-    {% endfor %}
-{% endif %}
-<div class="content">
-    <form method="POST">
-        {% csrf_token %}
-        <fieldset>
-            <legend>Login</legend>
-            {{ form|crispy }} <!-- This is referencing the form context variable from users/views -->
-        </fieldset>
+    {% if messages %}
+        {% for message in messages %}
+            <div>{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+    <div class="content">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }} <!-- This is referencing the form context dict from users/views -->
+            <div class="button-submit">
+                <button type="submit">Sign In</button>
+            </div>
+        </form>
         <div>
-            <button type="submit">Sign Up</button>
+            <small>Need An Account? <a href="{% url 'register' %}">Sign Up</a></small>
         </div>
-    </form>
-    <div>
-        <small>Need An Account? <a href="{% url 'register' %}">Sign Up</a></small>
     </div>
-</div>
 </body>
 </html>
