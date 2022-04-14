@@ -28,4 +28,4 @@ Log in with an existing user.
 Simple logout page, which asks if you'd like to log in again. (Appears at top of page similar to a navbar).
 
 # CSS
-Included simple CSS designs to add a little styling.
+Created some simple CSS designs to add a little styling.
