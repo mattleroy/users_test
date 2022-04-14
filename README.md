@@ -4,20 +4,20 @@ Used Django, Django-crispy-forms
 Allows users to register, login, logout, and redirect to an index page.
 
 # Index Page
-![IndexPage](https://user-images.githubusercontent.com/64391008/163481234-682ff49b-8a50-4a1d-9907-f720aecf9a6f.PNG)
+![IndexPage](https://user-images.githubusercontent.com/64391008/163488338-1996731f-34e4-41bc-b955-547212677316.PNG)
 This is supposed to simulate a landing/index page for a website.
 But because this is only supposed to be a registration/login application to plug into a website, I included nothing else but the navbar with the login and register links.
 
 # User Registration
-![RegisterPage](https://user-images.githubusercontent.com/64391008/163481420-20f3cfa5-d348-45ad-be0e-3814e6fea403.PNG)
+![RegisterPage](https://user-images.githubusercontent.com/64391008/163488282-fcb92130-c36c-450c-b244-323967fe9d07.PNG)
 Used django's UserCreationForm method and modified it to add an additional email field (not included).
 This stores the user to an SQLite database, which can then be used to log in with.
 
 
-![LoginPage](https://user-images.githubusercontent.com/64391008/163481408-c49b5ea5-d0ae-477f-a2c2-0b6467f66992.PNG)
+![LoginPage](https://user-images.githubusercontent.com/64391008/163488415-f0c41495-1148-4f9f-b429-8976310705d0.PNG)
 Log in with an existing user.
 
-![LogoutPage](https://user-images.githubusercontent.com/64391008/163482429-c393905b-40b4-4188-b8ae-8d661745a44e.PNG)
+![LogoutPage](https://user-images.githubusercontent.com/64391008/163488464-c992e39b-7cc6-40d6-b368-4ce98d18a4ae.PNG)
 Simple logout page, which asks if you'd like to log in again.
 
 # CSS
