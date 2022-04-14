@@ -1,6 +1,8 @@
 # users_test
 Application that handles user registration and authentication
+
 Used Django, Django-crispy-forms
+
 Allows users to register, login, logout, and redirect to an index page.
 
 # Index Page
