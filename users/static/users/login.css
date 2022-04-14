@@ -5,7 +5,7 @@
     font-family: calibri;
 }
 
-html,body{
+html, body{
     height:100%;
     width:100%;
 }
@@ -16,28 +16,25 @@ html,body{
     top:50%;
     transform: translate(-50%, -50%);
     display:flex;
+    text-align:center;
     flex-direction:column;
-    align-items:center;
     justify-content:center;
+    border:1px solid #10607a;
     width:20%;
     padding:20px;
     background-color:#62c1de;
-    border-radius:5px;
     height:30%;
 }
 
 input{
-    width:80%;
-    margin-top:10px;
-    margin-bottom:10px;
-    padding:5px 10px;
-    background-color:white;
     border:none;
-    border-radius:10px;
+    width:60%;
+    height:25px;
 }
 
 label{
-    font-size:1rem;
+    font-size:1.3rem;
+    color:#333;
 }
 
 button{
@@ -48,6 +45,14 @@ button{
     border:none;
     border-radius:50px;
     width:100px;
+}
+
+div{
+    margin-bottom:10px;
+}
+
+small{
+    color:#333;
 }
 
 button:hover{

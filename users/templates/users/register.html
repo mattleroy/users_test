@@ -1,3 +1,4 @@
+{% load crispy_forms_filters %}
 {% load crispy_forms_tags %}
 {% load static %}
 <!DOCTYPE html>
@@ -10,8 +11,8 @@
 <body>
     {% if messages %}
         {% for message in messages %}
-            <div>{{ message }}</div>
-        {% endfor %}
+            <div>{{ message }}</div> <!-- "Account Registered" popup message for new accounts -->
+        {% endfor %}                    <!-- Posts to whatever page you send the user to after registration -->
     {% endif %}
     <div class="content">
         <form method="POST">
@@ -21,7 +22,7 @@
                 <button type="submit">Sign Up</button>
             </div>
         </form>
-        <div>
+        <div class="acc-log">
             <small>Already Have An Account? <a href="{% url 'login' %}">Sign In</a></small>
         </div>
     </div>

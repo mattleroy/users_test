@@ -15,27 +15,41 @@ html,body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border:3px solid #377b93;
-    border-radius:10px;
     background-color:#62c1de;
     padding:20px;
+    border:1px solid #10607a;
 }
 
 input{
-    width:80%;
-    margin-top:10px;
+    width:60%;
     margin-bottom:10px;
     padding:5px 10px;
     background-color:white;
+    height:25px;
     border:none;
-    border-radius:10px;
 }
 
-#hint_id_password2{
-    display:none;
+div{
+    margin-bottom:10px;
 }
 
-#hint_id_username{
+.acc-log{
+    text-align:center;
+    color:#333;
+}
+
+label{
+    color:#333;
+    margin-top:10px;
+    font-size:1.3rem;
+}
+
+#hint_id_password1, li{
+    color:#333;
+    list-style: none;
+}
+
+#hint_id_password2, #hint_id_username{
     display:none;
 }
 
@@ -44,8 +58,6 @@ button:hover{
 }
 
 button{
-    margin-top:10px;
-    margin-bottom:10px;
     padding:5px 10px;
     background-color:white;
     border:none;
