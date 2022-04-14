@@ -14,7 +14,7 @@ This is supposed to simulate a navigation bar landing/index page for a website w
 # User Registration
 ![RegisterPage](https://user-images.githubusercontent.com/64391008/163488282-fcb92130-c36c-450c-b244-323967fe9d07.PNG)
 
-Used django's UserCreationForm method and modified it to add an additional email field (not included).
+Used Django's UserCreationForm method and modified it to add an additional email field (not included).
 This stores the user to an SQLite database, which can then be used to log in with.
 
 # Login
