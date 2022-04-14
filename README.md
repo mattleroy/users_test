@@ -8,7 +8,7 @@ Allows users to register, login, logout, and redirect to an index page.
 # Index Page
 ![IndexPage](https://user-images.githubusercontent.com/64391008/163488338-1996731f-34e4-41bc-b955-547212677316.PNG)
 
-This is supposed to simulate a navigation bar landing/index page for a website with relevant Login/Register links
+This is supposed to simulate a navigation bar landing/index page for a website with relevant Login/Register links.
 
 
 # User Registration
@@ -28,4 +28,4 @@ Log in with an existing user.
 Simple logout page, which asks if you'd like to log in again. (Appears at top of page similar to a navbar).
 
 # CSS
-Included simple CSS designs to add a little flavor
+Included simple CSS designs to add a little styling.
