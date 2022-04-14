@@ -20,7 +20,7 @@ This stores the user to an SQLite database, which can then be used to log in wit
 
 Log in with an existing user.
 
-#Logout
+# Logout
 ![LogoutPage](https://user-images.githubusercontent.com/64391008/163488464-c992e39b-7cc6-40d6-b368-4ce98d18a4ae.PNG)
 
 Simple logout page, which asks if you'd like to log in again.
