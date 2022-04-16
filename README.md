@@ -26,6 +26,7 @@ Log in with an existing user.
 ![LogoutPage](https://user-images.githubusercontent.com/64391008/163488464-c992e39b-7cc6-40d6-b368-4ce98d18a4ae.PNG)
 
 Simple logout page, which asks if you'd like to log in again. (Appears at top of page similar to a navbar).
+This could also be done as a pop-up message with Django's messages framework.
 
 # CSS
 Created some simple CSS designs to add a little styling.
